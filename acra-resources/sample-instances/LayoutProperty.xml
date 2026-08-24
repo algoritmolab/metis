@@ -1,0 +1,54 @@
+<LayoutProperty>
+  <ELR Name="FilingInformation">
+    <Layout Index="0" GroupDates="" CompanyDates="" />
+  </ELR>
+  <ELR Name="FullSetOfFinancialStatements">
+    <Layout Index="0" GroupDates="" CompanyDates="" />
+  </ELR>
+  <ELR Name="StatementByDirectors">
+    <Layout Index="0" GroupDates="" CompanyDates="" />
+  </ELR>
+  <ELR Name="IndependentAuditorsReport">
+    <Layout Index="0" GroupDates="" CompanyDates="" />
+  </ELR>
+  <ELR Name="AdditionalInformation">
+    <Layout Index="0" GroupDates="" CompanyDates="" />
+  </ELR>
+  <ELR Name="SFPCurrentNonCurrent">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="ISNature">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="SCF">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="NoteTradeAndOtherReceivables">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="NotePropertyPlantAndEquipment">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="NoteIntangibleAssets">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="NoteRightOfUseAssets">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="NoteTradeAndOtherPayables">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="NoteLoansAndBorrowings">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="NoteRevenue">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="NoteSelectedIncomeExpense">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ELR Name="NoteRelatedParty">
+    <Layout Index="0" GroupDates="01/01/2024@31/12/2024::False::False;;01/01/2023@31/12/2023::False::False" CompanyDates="" />
+  </ELR>
+  <ArrayOfHypercubes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</LayoutProperty>

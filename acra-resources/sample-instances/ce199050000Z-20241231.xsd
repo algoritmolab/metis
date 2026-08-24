@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema targetNamespace="http://www.ce199050000Z.com/ce199050000Z-2024-12-31" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ce199050000Z="http://www.ce199050000Z.com/ce199050000Z-2024-12-31" xmlns:enum="http://xbrl.org/2014/extensible-enumerations" xmlns:gen="http://xbrl.org/2008/generic" xmlns:lab_rol_sg-sfrs_2026-01-01="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/sg-sfrs/lab_rol_sg-sfrs_2026-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:msg="http://xbrl.org/2010/message" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:reference="http://www.xbrl.org/2009/role/reference" xmlns:sg-as="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-as" xmlns:sg-ca="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-ca" xmlns:sg-dei="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-dei" xmlns:sg-ee-sfrs="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-ee/sg-ee-sfrs" xmlns:sg-fsh="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-fsh" xmlns:sg-lab-rol="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-lab-rol" xmlns:sg-lm="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-lm" xmlns:sg-parts="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-parts" xmlns:sg-sfrs-ent="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/sg-sfrs-ent" xmlns:sg-sfrs-rol="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/sg-sfrs-rol" xmlns:sg-ssa="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-ssa" xmlns:sg-ty-dim="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-ty-dim" xmlns:sg-types="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-types" xmlns:valm="http://xbrl.org/2010/message/validation" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ce199050000Z-20241231_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ce199050000Z-20241231_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ce199050000Z-20241231_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/formula/ar_2026-01-01_for.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/formula/el_2026-01-01_for.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/formula/cr_2026-01-01_for.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/formula/md_2026-01-01_for.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/formula/dm_2026-01-01_for.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/formula/cs_2026-01-01_for.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/formula/dt_2026-01-01_for.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/formula/pn_2026-01-01_for.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/formula/sg_param_2026-01-01.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/fr/sg-sfrs/sg-sfrs_2026-01-01_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Taxonomy2026/references/sg-sfrs_2026-01-01_ref.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/FilingInformation" id="FilingInformation">
+        <link:definition>[10000000] Filing information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/FullSetOfFinancialStatements" id="FullSetOfFinancialStatements">
+        <link:definition>[11000000] Full set of financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/StatementByDirectors" id="StatementByDirectors">
+        <link:definition>[12000000] Statement by directors</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/IndependentAuditorsReport" id="IndependentAuditorsReport">
+        <link:definition>[13000000] Independent auditors' report</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/AdditionalInformation" id="AdditionalInformation">
+        <link:definition>[14000000] Additional information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/SFPCurrentNonCurrent" id="SFPCurrentNonCurrent">
+        <link:definition>[21100000] Statement of financial position, current and non-current</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/ISNature" id="ISNature">
+        <link:definition>[22000000] Income statement, by nature of expense</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/SCF" id="SCF">
+        <link:definition>[23000000] Statement of cash flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/NoteTradeAndOtherReceivables" id="NoteTradeAndOtherReceivables">
+        <link:definition>[31000000] Note - Trade and other receivables</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/NotePropertyPlantAndEquipment" id="NotePropertyPlantAndEquipment">
+        <link:definition>[32000000] Note - Property, plant and equipment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/NoteIntangibleAssets" id="NoteIntangibleAssets">
+        <link:definition>[33000000] Note - Intangible assets (excluding goodwill)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/NoteRightOfUseAssets" id="NoteRightOfUseAssets">
+        <link:definition>[34000000] Note - Right-of-use assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/NoteTradeAndOtherPayables" id="NoteTradeAndOtherPayables">
+        <link:definition>[35000000] Note - Trade and other payables</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/NoteLoansAndBorrowings" id="NoteLoansAndBorrowings">
+        <link:definition>[36000000] Note - Loans and borrowings</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/NoteRevenue" id="NoteRevenue">
+        <link:definition>[37000000] Note - Revenue</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/NoteSelectedIncomeExpense" id="NoteSelectedIncomeExpense">
+        <link:definition>[38000000] Note - Selected income (expense)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/NoteRelatedParty" id="NoteRelatedParty">
+        <link:definition>[39000000] Note - Related party</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/AdditionalCalculations" id="AdditionalCalculations">
+        <link:definition></link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ce199050000Z.com/ce199050000Z-2024-12-31/role/AxisDefaults" id="AxisDefaults">
+        <link:definition>[99999999] Axis - Defaults</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
+  <xsd:import namespace="http://xbrl.org/2010/message" schemaLocation="http://www.xbrl.org/2010/generic-message.xsd" />
+  <xsd:import namespace="http://xbrl.org/2010/message/validation" schemaLocation="http://www.xbrl.org/2010/validation-message.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/sg-sfrs/lab_rol_sg-sfrs_2026-01-01" schemaLocation="Taxonomy2026/fr/sg-sfrs/lab_rol_sg-sfrs_2026-01-01.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-ee/sg-ee-sfrs" schemaLocation="Taxonomy2026/elts/sg-ee/sg-ee-sfrs/sg-ee-sfrs_2026-01-01.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-as" schemaLocation="Taxonomy2026/elts/sg-as-cor_2026-01-01.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-ty-dim" schemaLocation="Taxonomy2026/elts/sg-ty-dim_2026-01-01.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-types" schemaLocation="Taxonomy2026/elts/sg-types_2026-01-01.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-ca" schemaLocation="Taxonomy2026/elts/sg-ca-cor_2026-01-01.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-dei" schemaLocation="Taxonomy2026/elts/sg-dei-cor_2026-01-01.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-lm" schemaLocation="Taxonomy2026/elts/sg-lm-cor_2026-01-01.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-ssa" schemaLocation="Taxonomy2026/elts/sg-ssa-cor_2026-01-01.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/elts/sg-fsh" schemaLocation="Taxonomy2026/elts/sg-fsh-cor_2026-01-01.xsd" />
+  <xsd:import namespace="http://www.bizfinx.gov.sg/taxonomy/2026-01-01/sg-sfrs-rol" schemaLocation="Taxonomy2026/fr/sg-sfrs/sg-sfrs_2026-01-01_elr.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2009/role/reference" schemaLocation="http://www.xbrl.org/lrr/role/reference-2009-12-16.xsd" />
+</xsd:schema>
